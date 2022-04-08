@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-auth-sessions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "installDev": "npm install --prefix backend && npm install --prefix client",
+    "start": "npm run installDev && start npm start --prefix backend && start npm run dev --prefix client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
